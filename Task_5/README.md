@@ -6,4 +6,5 @@ g++ scrip.cpp -o runfile
 ```
 
 Вывод
+
 ![image](/Task_5/source/terminal_output.png)
