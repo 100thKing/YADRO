@@ -72,9 +72,9 @@ QAMDemodulator::~QAMDemodulator() {}
 std::vector<bool> QAMDemodulator::demodulate(const std::vector<std::complex<double>>& symbols) {
     std::vector<bool> bits;
     switch (type) {
-        case QAMType::QPSK: bits = demodulateQPSK(symbols); break; // Вызов демодуляции QPSK
-        case QAMType::QAM16: bits = demodulateQAM16(symbols); break; // Вызов демодуляции QAM16
-        case QAMType::QAM64: bits = demodulateQAM64(symbols); break; // Вызов демодуляции QAM64
+        case QAMType::QPSK: bits = demodulateQPSK(symbols); break;
+        case QAMType::QAM16: bits = demodulateQAM16(symbols); break;
+        case QAMType::QAM64: bits = demodulateQAM64(symbols); break;
     }
 
     return bits;
