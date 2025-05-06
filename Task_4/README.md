@@ -1,4 +1,4 @@
-#### Версия NS: ns-allinone-3.41
+#### Версия NS: ns-allinone-3.44
 #### Язык: C++
 
 # Содержание
@@ -72,13 +72,6 @@ cd ns-allinone-3.44/ns-3.44
     * UlMacStats.txt
     * UlRlcStats.txt
 
-* Для вывода Throughput из RLC уровня используем файл script.cpp
-    * В коде меняем значение переменных DL_RLC и UL_RLC на путь до соответствующих текстовых файлов(DlRlcStats.txt и UlRlcStats.txt)
-    * Компилируем и запускаем файл:
-    ```Shell
-    g++ script.cpp -o run
-    ./run
-    ```
 
 
 </details>
